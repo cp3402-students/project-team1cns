@@ -647,55 +647,61 @@ textarea {
 
 /* Navigation
 --------------------------------------------- */
+/* Navigation Bar Styling */
+
 .main-navigation {
-	display: block;
-	width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change the background color as needed */
+    padding: 10px 20px;
+}
+
+.site-branding {
+    flex: 1; /* Takes up remaining space */
+}
+
+.site-branding a {
+    color: #fff; /* Link color */
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.site-description {
+    color: #ddd; /* Description color */
+    font-size: 14px;
+}
+
+.menu-toggle {
+    display: none; /* Hide menu toggle on larger screens */
 }
 
 .main-navigation ul {
-	display: none;
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
 }
 
-.main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
-	position: absolute;
-	top: 100%;
-	left: -999em;
-	z-index: 99999;
+.main-navigation ul li {
+    margin-left: 20px; /* Adjust spacing between menu items */
 }
 
-.main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
+.main-navigation ul li:last-child {
+    margin-left: auto; /* Push the page navigation to the right */
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	display: block;
-	left: auto;
+.main-navigation ul li a {
+    color: #fff; /* Menu item color */
+    text-decoration: none;
+    font-size: 16px;
 }
 
-.main-navigation ul ul a {
-	width: 200px;
+.main-navigation ul li a:hover {
+    color: #ddd; /* Hover color */
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
-	left: auto;
-}
 
-.main-navigation li {
-	position: relative;
-}
-
-.main-navigation a {
-	display: block;
-	text-decoration: none;
-}
 
 /* Small menu. */
 .menu-toggle,
