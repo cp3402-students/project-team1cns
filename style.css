@@ -967,3 +967,9 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+
+.site-footer {
+    background-color: #000;
+    color: #f1f1f1;
+}
