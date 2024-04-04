@@ -40,7 +40,10 @@ Here's how a team member could contribute changes:
 
 
  ## Workflow
- Enter Here
+
+
+
+Depending on the type of site you want to build, you'll need to create custom content, which can come in many shapes and sizes. This process can take a lot of time, which is why I decided to download and import the WordPress Codex's Theme Unit Test, allowing you to test for all the basics.
 
  ## Local Environments & IDE
  Enter here
