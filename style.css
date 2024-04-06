@@ -647,6 +647,18 @@ textarea {
 
 /* Navigation
 --------------------------------------------- */
+.site-header {
+	position: relative;	
+	color: #fff;
+	padding: 1em;
+	font-family: sans-serif;
+	background-color: #666;
+
+	@media screen {
+		padding: 1em 2em;
+	}
+}
+
 .main-navigation {
 	display: block;
 	width: 100%;
