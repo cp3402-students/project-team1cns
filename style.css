@@ -789,6 +789,24 @@ textarea {
 	font-weight: 100;
 }
 
+@media screen and (min-width: 900px) {
+	.site-header {
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	.site-branding {
+		width: 55%;
+	}
+
+	.site-navigation {
+		width: 55%;
+	}
+
+
+	
+}
 
 /* Posts and pages
 --------------------------------------------- */
