@@ -1,4 +1,4 @@
-/* globalU3AThemeScreenReaderText */
+/* global  */
 /**
  * Theme functions file.
  *
@@ -12,7 +12,7 @@
 
 		// Add dropdown toggle that displays child menu items.
 		var dropdownToggle = $( '<button />', { 'class': 'dropdown-toggle', 'aria-expanded': false })
-			.append(U3AThemeScreenReaderText.icon )
+			.append(U3AThemeScreenReaderText.icon)
 			.append( $( '<span />', { 'class': 'screen-reader-text', text:U3AThemeScreenReaderText.expand }) );
 
 		container.find( '.menu-item-has-children > a, .page_item_has_children > a' ).after( dropdownToggle );

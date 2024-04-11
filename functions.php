@@ -24,9 +24,9 @@ function theme_for_u3a_setup() {
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
 		* If you're building a theme based on Theme For U3A, use a find and replace
-		* to change 'theme-for-u3a' to the name of your theme in all the template files.
+		* to change 'U3ATheme' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'theme-for-u3a', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'U3ATheme', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -49,7 +49,7 @@ function theme_for_u3a_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Header', 'theme-for-u3a' ),
+			'menu-1' => esc_html__( 'Header', 'U3ATheme' ),
 		)
 	);
 
@@ -122,9 +122,9 @@ add_action( 'after_setup_theme', 'theme_for_u3a_content_width', 0 );
 function theme_for_u3a_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'theme-for-u3a' ),
+			'name'          => esc_html__( 'Sidebar', 'U3ATheme' ),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'theme-for-u3a' ),
+			'description'   => esc_html__( 'Add widgets here.', 'U3ATheme' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -138,10 +138,15 @@ add_action( 'widgets_init', 'theme_for_u3a_widgets_init' );
  * Enqueue scripts and styles.
  */
 function theme_for_u3a_scripts() {
-	wp_enqueue_style( 'theme-for-u3a-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'theme-for-u3a-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'U3ATheme-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_style_add_data( 'U3ATheme-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'theme-for-u3a-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), _S_VERSION, true );
+	wp_enqueue_script( 'U3ATheme-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), _S_VERSION, true );
+
+	wp_localize_script('U3ATheme-navigation', 'U3AThemeScreenReaderText', array(
+		'expand' => __('Expand Child Menu', "U3ATheme"),
+		'collapse' => __('Collapse Child Menu', "U3ATheme"),
+	));
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
