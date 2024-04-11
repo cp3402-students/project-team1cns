@@ -739,7 +739,8 @@ a:hover, a:active {
 Header 
 */
 .main-navigation {
-  display: block;
+  display: flex;
+  align-items: center;
   font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
   font-weight: 400;
   clear: left;

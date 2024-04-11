@@ -1,5 +1,6 @@
 .main-navigation {
-	display: block;
+	display: flex;
+	align-items: center;
 	
 	font-family: $font__sans;
 	font-weight: 400;
