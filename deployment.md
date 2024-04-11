@@ -1,5 +1,9 @@
 # Development and Deployment Workflow
 
+This document outlines our development and deployment workflow in detail so that anyone can easily follow along. Content you can expect to find in this document is project management methods and theme updates through tests and deployment to staging and development sites. See summary of tools used below:
+
+# Tools 
+
 ## CMS - Wordpress
 The content management system that has been used is Wordpress due to its scalability (as this website will be constantly expanding), its user friendly design (so that the site can be maintained by volunteers with basic technology knowledge) and its extensive library of available logins 
 
