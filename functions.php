@@ -50,6 +50,7 @@ function theme_for_u3a_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Header', 'U3ATheme' ),
+			'menu-2' => esc_html__( 'Copyright', 'U3ATheme' ),
 		)
 	);
 
