@@ -912,11 +912,24 @@ button.dropdown-toggle {
   font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
   color: #fff;
   background-color: #36A1DA;
+  text-align: center;
 }
 @media screen and (min-width: 600px) {
   .site-footer {
     padding: 1em 2em;
   }
+}
+
+.social-menu ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.social-menu a {
+  display: block;
+  padding: 0.5em 1em;
+  color: white;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
