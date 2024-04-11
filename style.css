@@ -874,7 +874,7 @@ button.dropdown-toggle {
 .hentry {
   margin: 0 0 1.5em;
   padding: 70px;
-  padding-top: -100px;
+  padding-top: 0px;
 }
 
 .byline,
