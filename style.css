@@ -762,13 +762,13 @@ Header
 }
 .main-navigation ul ul li {
   padding-left: 1em;
-  background-color: aquamarine;
 }
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
 }
 .main-navigation ul ul a {
   width: 200px;
+  background-color: aquamarine;
 }
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
