@@ -3,10 +3,10 @@
 This document outlines our development and deployment workflow in detail so that anyone can easily follow along. Content you can expect to find in this document is project management methods and theme updates through tests and deployment to staging and development sites. See summary of tools used below:
 
 # Tools:
-- CMS ([Wordpress](https://wordpress.com))
-- Project Management ([Trello](https://trello.com))
-- Communication ([Slack](https://slack.com))
-- Version Control ([Github](https://github.com))
+- CMS - [Wordpress](https://wordpress.com)
+- Project Management - [Trello](https://trello.com)
+- Communication - [Slack](https://slack.com)
+- Version Control - [Github](https://github.com)
 
 ## CMS - Wordpress
 The content management system that has been used is WordPress due to its scalability (as this website will be constantly expanding), its user-friendly design (so that the site can be maintained by volunteers with basic technology knowledge), its extensive library of available plugins, and its ability to accommodate custom templates, essential for our project's unique requirements.
