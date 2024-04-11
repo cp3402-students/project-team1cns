@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #fff;
+  color: white;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+}
