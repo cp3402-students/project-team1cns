@@ -9,7 +9,7 @@ This document outlines our development and deployment workflow in detail so that
 - Version Control (Github)
 
 ## CMS - Wordpress
-The content management system that has been used is Wordpress due to its scalability (as this website will be constantly expanding), its user friendly design (so that the site can be maintained by volunteers with basic technology knowledge) and its extensive library of available logins 
+The content management system that has been used is WordPress due to its scalability (as this website will be constantly expanding), its user-friendly design (so that the site can be maintained by volunteers with basic technology knowledge), its extensive library of available plugins, and its ability to accommodate custom templates, essential for our project's unique requirements.
 
 ## Project Management & Communication - Trello and Slack
 Trello has been used as a project management due to its ability to visualise tasks that are to do, in progress or completed in a user friendly way. The ability to allocate cards to particular group members and label cards according to pre-determined subheadings makes it easy to filter and keep up to track. Other features that are of great benefit to project management are the capability of being able to create checklists within a card and to set a due date for the cards (with the option to send a reminder). 
