@@ -141,7 +141,7 @@ function theme_for_u3a_scripts() {
 	wp_enqueue_style( 'theme-for-u3a-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'theme-for-u3a-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'theme-for-u3a-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'theme-for-u3a-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
