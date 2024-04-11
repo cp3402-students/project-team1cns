@@ -13,10 +13,6 @@
 
 	<footer id="colophon" class="site-footer">
 
-	<nav class="copyright-menu">
-	<?php wp_nav_menu(array('theme_location' => 'menu-2') ); ?>
-	</nav><!-- .copyright-menu --> 
-
 
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'theme-for-u3a' ) ); ?>">
