@@ -867,6 +867,10 @@ button.dropdown-toggle {
   display: block;
 }
 
+.entry-title {
+  display: none;
+}
+
 .hentry {
   margin: 0 0 1.5em;
   padding: 70px;
