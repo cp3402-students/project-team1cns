@@ -751,7 +751,6 @@ Header
   margin: 0;
   padding-top: 1em;
   padding-left: 0;
-  background-color: black;
 }
 .main-navigation ul ul {
   display: none;
@@ -783,6 +782,7 @@ Header
   padding: 0.5em 1em 0.5em 0;
   text-decoration: none;
   color: #fff;
+  background-color: black;
 }
 .main-navigation a:hover,
 .main-navigation a:focus {

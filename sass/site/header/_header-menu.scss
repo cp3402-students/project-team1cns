@@ -12,12 +12,12 @@
 		margin: 0;
 		padding-top: 1em;
 		padding-left: 0;
-		background-color: black;
 
 		ul {
 			display: none;
 			top: 1.5em;
 			z-index: 99999;
+			
 
 			ul {
 				top: 0;
@@ -54,6 +54,7 @@
 		padding: .5em 1em .5em 0;
 		text-decoration: none;
 		color: #fff;
+		background-color: black;
 	}
 	
 	a:hover,
