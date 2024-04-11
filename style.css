@@ -782,11 +782,11 @@ Header
   padding: 0.5em 1em 0.5em 0;
   text-decoration: none;
   color: #fff;
-  background-color: black;
 }
 .main-navigation a:hover,
 .main-navigation a:focus {
   text-decoration: underline;
+  background-color: black;
 }
 .main-navigation .menu-item-has-children,
 .main-navigation .page-item-has-children {
