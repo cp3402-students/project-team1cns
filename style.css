@@ -869,7 +869,7 @@ button.dropdown-toggle {
 
 .hentry {
   margin: 0 0 1.5em;
-  padding: 100px;
+  padding: 70px;
 }
 
 .byline,
@@ -894,7 +894,7 @@ button.dropdown-toggle {
 }
 
 .swiper-slide {
-  border-radius: 10px;
+  border-radius: 100px;
 }
 
 /*--------------------------------------------------------------
