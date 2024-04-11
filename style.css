@@ -786,7 +786,7 @@ Header
 }
 .main-navigation a:hover,
 .main-navigation a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .main-navigation .menu-item-has-children,
 .main-navigation .page-item-has-children {
