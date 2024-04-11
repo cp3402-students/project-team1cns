@@ -1,32 +1,18 @@
-// Define %flex-center as a placeholder selector
-%flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* styles.scss */
 
-// Variables
-$primary-color: #0000ff;
-$secondary-color: #6c757d;
+// Define variables for header colors
+$header-background-color: #333;
+$header-text-color: #fff;
 
-// Nesting
+// Style the header element
 header {
-    background-color: #fff;
-    color: white;
-    padding: 20px;
-
-    h1 {
-        margin: 0;
-    }
+  background-color: $header-background-color;
+  color: $header-text-color;
+  padding: 20px;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid $secondary-color;
-    border-radius: 5px;
-
-    // Extend the %flex-center placeholder selector
-    @extend %flex-center;
+// Style the h1 element inside the header
+header h1 {
+  margin: 0;
+  font-size: 24px;
 }

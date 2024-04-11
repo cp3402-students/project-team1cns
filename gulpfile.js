@@ -5,7 +5,7 @@ const sass = require('gulp-sass')(require('sass'));
 function compileSass() {
     return gulp.src('sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('./'));
 }
 
 // Watch for changes in Sass files
