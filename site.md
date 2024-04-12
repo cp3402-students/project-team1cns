@@ -26,6 +26,6 @@ This plug-in was used to create information cards to display a selection of cour
 To use this, open a page on Wordpress in editing mode, click on the plus to add content, then select `Info Cards`. From here you can customise the cards how you like. 
 
 #### How to use WP Forms Plug-in
-This plug-in was used to create sign up and contacts forms. 
+This plug-in was used to create sign up and contact forms. 
 
 To use this, from the Wordpress dashboard select `WPForms`, then select `Start Building`. From here, select a template that is suitable and then begin customising it. Once building the form is finished, click `Save`, copy the shortcode for the form and paste it on a page. 
