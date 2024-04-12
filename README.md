@@ -1,6 +1,8 @@
 # Team 1 - U3A Theme
 Created by Shivaun, Dayne, Trijeet & Mia
 
+About U3A Online:
+U3A Online is the first virtual University of the Third Age, delivering online learning through the internet. It's designed for older individuals with basic computing skills, providing access to courses and resources, especially for those who are isolated.
 
 ## Documentation
 Below are links to the documentation files that explain the development and deployment workflow used, information regarding how to continue developing the theme and instructions for how to maintain the site. 
