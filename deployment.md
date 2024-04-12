@@ -70,8 +70,17 @@ Depending on the type of site you want to build, you'll need to create custom co
 Before we began work on the theme, our group needed to decide on an IDE. The decision was between PHPStorm and VSCode, each with its strengths. While PHPStorm offers syntax highlighting similar to PyCharm, our group was much more accustomed to the UI and Git version control systems on VSCode.
 
 
- ## Hosting Environments 
- Enter here 
+ ## Hosting Environments - Amazon Lightsail, Digitial Ocean 
+ 
+ ### Staging Server  
+
+
+
+ ### Production Server
+Since the production server is the final version of the site it will use WP Pusher to access main from the GitHub Repository
+
+Simply log into digital ocean (https://cloud.digitalocean.com) and access the droplet created for production. Ours is called "
+
 
 ## Testing and Automation
 Enter here
