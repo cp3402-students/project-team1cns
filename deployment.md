@@ -63,7 +63,11 @@ Depending on the type of site you want to build, you'll need to create custom co
  - Then create an empty database with a relevent name and with the Server connection collation: utf8mb4_unicode_ci
  - Once this is complete you can grab your entire extracted wordpress installation and place it within the root directory of the usbwebserver file (\usbwebserver_v8.6.5\usbwebserver\root)
  - Choose the option to replace files into the destination 
- - Now you can navigate to the local host port you have chosen (defualt being 8080 or just 'local host')
+ - Now you can navigate to the localhost port you have chosen (defualt being 8080 or just 'localhost')
+ - Will now link the same passwords used for PhpMyAdmin to Wordpress as well as make a site login and password. 
+ - Once this is complete you are now able to use your locally hosted version of wordpress to test the theme. 
+
+Before we began work on the theme, however, we needed to decide on an IDE. The decision was between PHPStorm and VSCode, each with its strengths. While PHPStorm offers syntax highlighting similar to PyCharm, our group was much more accustomed to the UI and Git version control systems on VSCode.
 
 
  ## Hosting Environments 
