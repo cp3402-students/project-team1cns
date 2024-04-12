@@ -40,6 +40,8 @@ Typography seen within the site can be changed under variable-site/_typography.s
 
 ### Layout
 
+A global layout file provided by underscores was used for general content areas to apply across multiple pages or posts. You can add any general styling to the nested files in style.scss
+
 ### Navigation
 
-
+A full custom navigation bar was built using flex box to have a fully responsive mobile design. Under the Sass folder navigation you can find all the styling for the nav bar. 
