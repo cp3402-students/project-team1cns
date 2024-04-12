@@ -9,9 +9,9 @@ All content is seamlessly integrated with WordPress, enhancing theme reusability
 The theme separates the logo from its core structure, allowing effortless logo edits via the CMS interface.
 
 ### 3. Flexible Footer Content
-Footer content is conveniently managed in the footer.php file within the theme directory, providing easy accessibility for customization.
+Footer content is conveniently managed in the footer.php file within the theme directory, providing easy accessibility for customisation.
 
-### 4. Customizable Header and Footer
+### 4. Customisable Header and Footer
 Users can easily tailor the theme's header and footer colors to match their branding preferences by adjusting the variables in header.scss and footer.scss located in the site folder.
 
 ### 5. Highly Adaptable Theme
@@ -22,6 +22,12 @@ With all content directly integrated into WordPress, the theme boasts exceptiona
 ### Colours
 
 Colours can be changed and added to under variable-site/_colours.scss. We went with the naming convention of "name of colour" + _ + "colour". By making colour an independent Sass variable it allows for change to happen across the site based where the variables have been used. 
+
+The current theme colours are:
+#FCE786
+#E67235
+#77BFE2
+#36A1D4
 
 ### Typography
 
