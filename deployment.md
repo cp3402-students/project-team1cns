@@ -16,7 +16,7 @@ Trello has been used as a project management due to its ability to visualise tas
 
 Slack has been selected as the communcation channel due to its ability to integrate with Trello and also with our Github Repository. Having a channel where everything is accessible in the one place creates a seamless flow and keeps all members of the team up to date at all times. 
 
- ## Version Control - Github
+## Version Control - Github
  GitHub was utilised for version control, with several branches such as Main, Staging, and Development.
 
 Here's how a team member could contribute changes:
