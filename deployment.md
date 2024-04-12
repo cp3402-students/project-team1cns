@@ -46,14 +46,9 @@ Here's how a team member could contribute changes:
 
 * The branch is then merged into the development branch, which incorporates this newly created code in the main development
 
+## Local Environments & IDE - USB Webserver and VScode 
 
- ## Workflow
- 
-Depending on the type of site you want to build, you'll need to create custom content, which can come in many shapes and sizes. This process can take a lot of time, which is why I decided to download and import the WordPress Codex's Theme Unit Test, allowing you to test for all the basics.
-
- ## Local Environments & IDE - USB Webserver and VScode 
-
- Our group found that USB Webserver was the easiest way to locally host wordpress on an apache server. Here is the setup for the server: 
+Our group found that USB Webserver was the easiest way to locally host wordpress on an apache server. Here is the setup for the server: 
 
 1. First install "usbwebserver_v8.6.5.zip" at (https://usbwebserver.yura.mk.uahttps://usbwebserver.yura.mk.ua)
 2. Download the latest version of wordpress (https://en-au.wordpress.org/download/)
@@ -79,8 +74,12 @@ Before we began work on the theme, our group needed to decide on an IDE. The dec
  ### Production Server
 Since the production server is the final version of the site it will use WP Pusher to access main from the GitHub Repository
 
-Simply log into Digital Ocean (https://cloud.digitalocean.com) and access the droplet created for production (Ours is called "U3A-Production") Then you will be able to access the domain granting you access to the production site. 
+We just logged into Digital Ocean (https://cloud.digitalocean.com) and access the droplet created for production (Ours is called "U3A-Production") Then we were able to access the domain granting you access to the production site. 
 
 
 ## Testing and Automation
+Our group utilised USBWebServer to host WordPress locally, with a dummy website import. This was so we could test the theme with different images, font types, titles, etc. We found this "Dummy" site from the [WordPress Codex's Theme Unit Test](https://codex.wordpress.org/Theme_Unit_Test). After downloading the XML, we simply imported it into our site, allowing for a full theme stress test.
 
+After changes were made to the theme, as previously mentioned, we would push changes using meaningful commits to the relevant branch, most commonly "Staging_Gulp" or "Staging_New". Then, the WP Pusher Plugin would pull the repository changes and make adjustments in real-time to the staging site hosted on LightSail. Once our group was happy with the staging changes, a pull request would be made to merge the staging branch into main.
+
+The final step left was to update our live server. Once we had Digital Ocean set up and a site hosted, we once again used the WP Pusher Plugin to access the repository from the main branch, which housed our staging changes. By utilising tools like WP Pusher, GitHub, and Gulp, it allowed our team to work efficiently and collaboratively, producing a high level of work.
