@@ -68,8 +68,15 @@ Before we began work on the theme, our group needed to decide on an IDE. The dec
  ## Hosting Environments - Amazon Lightsail, Digitial Ocean 
  
  ### Staging Server  
+For staging, AWS lightsail was chosen to host the wordpress site. 
 
+Once signed into AWS Lightsail, a wordpress instance was created by selecting the “Create Instance” button. The default region was chosen and Wordpress was selected as the blueprint. The cheapest plan was chosen,  the instance was named and then “Create Instance” button was selected. 
 
+To configure the Wordpress instance, the default public IP address was set to static in the Network tab within the instance. The default password was retrieved by selecting “Retrieve default password” in the Wordpress panel. 
+
+To sign into the AWS Lightsail Wordpress Instance, the public IP address was used (http://public-ipv4-address./wp-admin),  the username was “user” and the password was the default given above (this can be modified in settings once signed in”.  The site was now ready to be created. 
+
+Within the staging site, the WP Pusher plugin was used to connect to our Github repository to the Wordpress site so we could utilise the theme we created. Please see site.md for further details. 
 
  ### Production Server
 Since the production server is the final version of the site it will use WP Pusher to access main from the GitHub Repository
