@@ -64,6 +64,28 @@ Our group found that USB Webserver was the easiest way to locally host wordpress
 
 Before we began work on the theme, our group needed to decide on an IDE. The decision was between PHPStorm and VSCode, each with its strengths. While PHPStorm offers syntax highlighting similar to PyCharm, our group was much more accustomed to the UI and Git version control systems on VSCode.
 
+### Setting up Sass and Gulp
+
+First we tried to set up the Sass and compile it manually
+1. Installed node.js
+2. Initialised the project using the command npm init -y which installed the package.json.
+3. Installed sass globally on system with the following command "npm install -g sass".
+4. Created the sass files and compiled it with css.
+5. And then when we did the sass watch command which successfully converted Sass codes to css.
+
+After setting up manually, we automated the process by setting up gulp
+1. We installed Gulp using the following command npm install gulp --save-dev
+2. To compile the sass file to css, we installed gulp sass plugin using the code npm install gulp-sass --save-dev
+3. We created a gulpfile.js in which we customised the code according to the directory of sass and css file.
+4. After tyring the command gulp watch, we tried making the changes in the sass file. Which resulted changes in css and leading to changes on the website.
+
+Troubleshoot:
+
+We encountered some errors while setting up the gulp, for which the following code helped 
+
+Cleaned npm cache using the following command - npm cache clean --force 
+Reinstall npm - npm install
+
 
  ## Hosting Environments - Amazon Lightsail, Digitial Ocean 
  
