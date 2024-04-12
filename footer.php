@@ -19,7 +19,6 @@
 			<p>Contact Details</p>
 			<a href="mailto:admin@u3atownsville.com">admin@u3atownsville.com</a>
 			<span class="sep"> | </span>
-			<a> href="tel:0747212345">07 4721 2345</a>
 			<p><a href="tel:+0747212345">07 4721 2345</a></p>
 
 			<p>Copyright © 2024 U3A (Team 1) All Rights Reserved.</p>
