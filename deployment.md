@@ -56,16 +56,16 @@ Depending on the type of site you want to build, you'll need to create custom co
  Our group found that USB Webserver was the easiest way to locally host wordpress on an apache server. Here is the setup for the server: 
 
  - First install "usbwebserver_v8.6.5.zip" at (https://usbwebserver.yura.mk.uahttps://usbwebserver.yura.mk.ua)
- - Download the latest version of wordpress (https://en-au.wordpress.org/download/)
- - Extract both downloads into a familiar directory
- - Run the usbwebserver.exe and Open PhpMyAdmin
- - Login in with the defaults: Username: root, Password: usbw (or this can be password at times)
- - Then create an empty database with a relevent name and with the Server connection collation: utf8mb4_unicode_ci
- - Once this is complete you can grab your entire extracted wordpress installation and place it within the root directory of the usbwebserver file (\usbwebserver_v8.6.5\usbwebserver\root)
- - Choose the option to replace files into the destination 
- - Now you can navigate to the localhost port you have chosen (defualt being 8080 or just 'localhost')
- - Will now link the same passwords used for PhpMyAdmin to Wordpress as well as make a site login and password. 
- - Once this is complete you are now able to use your locally hosted version of wordpress to test the theme. 
+1. Download the latest version of wordpress (https://en-au.wordpress.org/download/)
+2. Extract both downloads into a familiar directory
+3. Run the usbwebserver.exe and Open PhpMyAdmin
+4. Login in with the defaults: Username: root, Password: usbw (or this can be password at times)
+5. Then create an empty database with a relevent name and with the Server connection collation: utf8mb4_unicode_ci
+6. Once this is complete you can grab your entire extracted wordpress installation and place it within the root directory of the usbwebserver file (\usbwebserver_v8.6.5\usbwebserver\root)
+7. Choose the option to replace files into the destination 
+8. Now you can navigate to the localhost port you have chosen (defualt being 8080 or just 'localhost')
+9. Will now link the same passwords used for PhpMyAdmin to Wordpress as well as make a site login and password. 
+10. Once this is complete you are now able to use your locally hosted version of wordpress to test the theme. 
 
 Before we began work on the theme, however, we needed to decide on an IDE. The decision was between PHPStorm and VSCode, each with its strengths. While PHPStorm offers syntax highlighting similar to PyCharm, our group was much more accustomed to the UI and Git version control systems on VSCode.
 
