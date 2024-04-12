@@ -30,16 +30,6 @@
                     <?php dynamic_sidebar('footer-1'); ?>
                 <?php endif; ?>
             </div>
-            <div class="widget-area">
-                <?php if (is_active_sidebar('footer-2')) : ?>
-                    <?php dynamic_sidebar('footer-2'); ?>
-                <?php endif; ?>
-            </div>
-            <div class="widget-area">
-                <?php if (is_active_sidebar('footer-3')) : ?>
-                    <?php dynamic_sidebar('footer-3'); ?>
-                <?php endif; ?>
-            </div>
         </div><!-- .footer-widgets -->
         
     </footer><!-- #colophon -->
