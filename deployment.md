@@ -105,6 +105,8 @@ Since the production server is the final version of the site it will use WP Push
 
 We just logged into Digital Ocean (https://cloud.digitalocean.com) and access the droplet created for production (Ours is called "U3A-Production") Then we were able to access the domain granting you access to the production site. 
 
+To obtain the content from our Staging Site, we simply installed and ran the WordPress Exporter, exporting the staging site. Then, we just imported the XML file created.
+
 
 ## Testing and Automation
 Our group utilised USBWebServer to host WordPress locally, with a dummy website import. This was so we could test the theme with different images, font types, titles, etc. We found this "Dummy" site from the [WordPress Codex's Theme Unit Test](https://codex.wordpress.org/Theme_Unit_Test). After downloading the XML, we simply imported it into our site, allowing for a full theme stress test.
