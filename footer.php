@@ -21,7 +21,6 @@
 			<span class="sep"> | </span>
 			<a href="tel:+0747212345">07 4721 2345</a>
 			<p>Copyright © 2024 U3A (Team 1) All Rights Reserved.</p>
-            <span class="sep"> | </span>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->
 </div><!-- #page -->
