@@ -79,7 +79,7 @@ Before we began work on the theme, our group needed to decide on an IDE. The dec
  ### Production Server
 Since the production server is the final version of the site it will use WP Pusher to access main from the GitHub Repository
 
-Simply log into digital ocean (https://cloud.digitalocean.com) and access the droplet created for production. Ours is called "
+Simply log into digital ocean (https://cloud.digitalocean.com) and access the droplet created for production. Ours is called "U3A-Production". 
 
 
 ## Testing and Automation
