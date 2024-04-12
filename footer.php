@@ -40,7 +40,7 @@
       <p>Site: D.P. Web Design</p>
     </div>
   </div>
-</footer></div><?php wp_footer(); ?>
+</footer></div>
 
 </body>
 </html>
