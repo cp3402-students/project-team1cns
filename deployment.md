@@ -57,6 +57,13 @@ Depending on the type of site you want to build, you'll need to create custom co
 
  - First install "usbwebserver_v8.6.5.zip" at (https://usbwebserver.yura.mk.uahttps://usbwebserver.yura.mk.ua)
  - Download the latest version of wordpress (https://en-au.wordpress.org/download/)
+ - Extract both downloads into a familiar directory
+ - Run the usbwebserver.exe and Open PhpMyAdmin
+ - Login in with the defaults: Username: root, Password: usbw (or this can be password at times)
+ - Then create an empty database with a relevent name and with the Server connection collation: utf8mb4_unicode_ci
+ - Once this is complete you can grab your entire extracted wordpress installation and place it within the root directory of the usbwebserver file (\usbwebserver_v8.6.5\usbwebserver\root)
+ - Choose the option to replace files into the destination 
+ - Now you can navigate to the local host port you have chosen (defualt being 8080 or just 'local host')
 
 
  ## Hosting Environments 
