@@ -53,3 +53,8 @@ To use this, open a page on Wordpress in editing mode, click on the plus to add 
 This plug-in was used to create sign up and contact forms. 
 
 To use this, from the Wordpress dashboard select `WPForms`, then select `Start Building`. From here, select a template that is suitable and then begin customising it. Once building the form is finished, click `Save`, copy the shortcode for the form and paste it on a page. 
+
+#### How to use WP Pusher Plug-in
+This plug-in was used to connect our wordpress site to our github repository. 
+
+To use this, from the Wordpress dashboard select 'WP Pusher', then from the WP Pusher navigation bar, select the Github tab and press obtain github token. Once the token has been obtained and saved, select "Install Theme". Add the theme repository (which you can use the pick from github option) and choose the repository branch (Staging_gulp if working in the staging site and Production if working in the production site). Make sure to tick the 'Push to Deploy' option before selecting "Install Theme". Select Activate theme and then the theme is ready to use. 
