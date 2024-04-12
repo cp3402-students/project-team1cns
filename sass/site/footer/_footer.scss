@@ -1,27 +1,28 @@
 .site-footer {
-	position: relative;
-	padding: 1em;
-	font-family: $font__sans;
-	color: #fff;
-	background-color: $color__skin;
+    position: relative;
+    padding: 1em;
+    font-family: $font__sans;
+    color: #fff;
+    background-color: $color__skin;
     text-align: center;
-	
-	@media screen and (min-width: $query__small) {
-		padding: 1em 2em;
-	}
-}
-
-.social-menu {
+    
+    @media screen and (min-width: $query__small) {
+      padding: 1em 2em;
+    }
+  }
+  
+  .social-menu {
     ul {
-        display: flex;
-        justify-content: center;
-        list-style-type: none;
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
     }
-
+  
     a {
-        display: block;
-        padding: .5em 1em;
-        color: white;
-        text-decoration: none;
+      display: block;
+      padding: .5em 1em;
+      color: white;
+      text-decoration: none;
     }
-}
+  }
+  

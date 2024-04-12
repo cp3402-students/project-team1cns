@@ -11,26 +11,36 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-  
-
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'theme-for-u3a' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'theme-for-u3a' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'theme-for-u3a' ), 'theme-for-u3a', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
-<?php wp_footer(); ?>
+<footer id="colophon" class="site-footer">
+  <div class="footer-content">
+    <div class="contact-details">
+      <h2>Contact Details</h2>
+      <p>
+        <a href="mailto:admin@u3atownsville.com">admin@u3atownsville.com</a>
+      </p>
+      <p>
+        (07) 4724 3530
+      </p>
+      <h2>Opening Times</h2>
+      <p>Mon: 9:00am-10:30am</p>
+      <p>Tuesday-Friday: 9:00am-12:00pm</p>
+      <p>Saturday & Sunday: Closed</p>
+    </div>
+    <div class="location-info">
+      <h2>Location</h2>
+      <p>Office: Vincent Church of Christ Centre, Unit D.4</p>
+      <p>Corner of Palmerston & Ronan Street, Vincent</p>
+      <p>Townsville QLD 4814.</p>
+      <p>
+        <a href="https://maps.google.com/">GET DIRECTIONS</a>
+      </p>
+    </div>
+    <div class="site-info">
+      <p>&copy; 2024 University of the Third Age Townsville (U3A). All Rights Reserved.</p>
+      <p>Site: D.P. Web Design</p>
+    </div>
+  </div>
+</footer></div><?php wp_footer(); ?>
 
 </body>
 </html>
