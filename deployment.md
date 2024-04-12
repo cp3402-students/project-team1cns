@@ -74,7 +74,7 @@ Once signed into AWS Lightsail, a wordpress instance was created by selecting th
 
 To configure the Wordpress instance, the default public IP address was set to static in the Network tab within the instance. The default password was retrieved by selecting “Retrieve default password” in the Wordpress panel. 
 
-To sign into the AWS Lightsail Wordpress Instance, the public IP address was used (http://public-ipv4-address./wp-admin),  the username was “user” and the password was the default given above (this can be modified in settings once signed in”.  The site was now ready to be created. 
+To sign into the AWS Lightsail Wordpress Instance, the public IP address was used (http://public-ipv4-address./wp-admin),  the username was “user” and the password was the default given above this can be modified in settings once signed in.  The site was now ready to be created. 
 
 Within the staging site, the WP Pusher plugin was used to connect to our Github repository to the Wordpress site so we could utilise the theme we created. Please see site.md for further details. 
 
