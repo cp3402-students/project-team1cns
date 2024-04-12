@@ -2,6 +2,21 @@
 
 ## Features
 
+### 1. Direct WordPress Content Integration
+All content is seamlessly integrated with WordPress, enhancing theme reusability and simplifying content management.
+
+### 2. Custom Logo Support
+The theme separates the logo from its core structure, allowing effortless logo edits via the CMS interface.
+
+### 3. Flexible Footer Content
+Footer content is conveniently managed in the footer.php file within the theme directory, providing easy accessibility for customization.
+
+### 4. Customizable Header and Footer
+Users can easily tailor the theme's header and footer colors to match their branding preferences by adjusting the variables in header.scss and footer.scss located in the site folder.
+
+### 5. Highly Adaptable Theme
+With all content directly integrated into WordPress, the theme boasts exceptional versatility, enabling it to be repurposed for various website projects effortlessly.
+
 ## Design
 
 ### Colours
