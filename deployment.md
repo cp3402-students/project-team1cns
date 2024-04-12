@@ -51,8 +51,13 @@ Here's how a team member could contribute changes:
  
 Depending on the type of site you want to build, you'll need to create custom content, which can come in many shapes and sizes. This process can take a lot of time, which is why I decided to download and import the WordPress Codex's Theme Unit Test, allowing you to test for all the basics.
 
- ## Local Environments & IDE
- Enter here
+ ## Local Environments & IDE - USB Webserver and VScode 
+
+ Our group found that USB Webserver was the easiest way to locally host wordpress on an apache server. Here is the setup for the server: 
+
+ - First install "usbwebserver_v8.6.5.zip" at (https://usbwebserver.yura.mk.uahttps://usbwebserver.yura.mk.ua)
+ - Download the latest version of wordpress (https://en-au.wordpress.org/download/)
+
 
  ## Hosting Environments 
  Enter here 
