@@ -19,7 +19,7 @@
 			<p>Contact Details</p>
 			<a href="mailto:admin@u3team1.com">admin@u3ateam1.com</a>
 			<span class="sep"> | </span>
-			<a href="tel:+044449999">044449999</a>
+			<p>Call Us: </p><a href="tel:+044449999">044449999</a>
 			<p>Copyright © 2024 U3A (Team 1) All Rights Reserved.</p>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->
