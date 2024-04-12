@@ -4,7 +4,31 @@ This page will serve as a guide to any potential users on how to edit and use th
 
 ## Site Structure
 
+Home Page: The main landing page of the U3A website with a brief overview
+
+About: Background about U3A online
+
+Courses: Allows users to browse the list of courses offered by U3A and to sign up or enquire about these
+
+GEMS: Page containing the monthly newsletters which are downloadable. Also allows anyone from the public to sign up to the email mailing list .
+
+Contact Us: Allows anyone to contact U3A with any queries by completing a form
+
+Login Page: Allows members to log in to the member portal
+
+Member Home Page: Once the member has logged in, this is the landing page for the member portal. 
+
+Sign Up Page: Allows potential members to send their contact information to U3A to sign up for a membership. 
+
+Individual Course Pages: Has an outline of what the course contains, and has the course content separated into modules (in PDF form) that can be viewed online or downloaded. Can only be viewed one the member has been enrolled.
+
 ## Inserting/Removing Content 
+
+In order to update the content of the website, the administrator must be logged into the back end of the Wordpress website. 
+
+Adding a new page – in order to add a new page, the administrator can select “Add New Page” under “Pages”  
+
+In the case of adding a new subject page, the administrator can cut and paste the contents of an already existing page and edit the images, headings and text. There is also the option of selecting ‘replace’ on the files, where the module files can be replaced with the relevant PDF file
 
 ## Plug-Ins
 This website uses the following plugins to enhance functionality:
