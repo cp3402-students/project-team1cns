@@ -671,7 +671,7 @@ a:hover, a:active {
   padding: 1em;
   font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
   color: #fff;
-  background-color: #ff0000;
+  background-color: #000000;
 }
 @media screen and (min-width: 600px) {
   .site-header {
